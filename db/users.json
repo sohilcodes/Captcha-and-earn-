@@ -1,0 +1,9 @@
+{
+  "test@example.com": {
+    "password": "test123",
+    "wallet": 200.0,
+    "today_used": 0,
+    "last_reset": "2025-12-11",
+    "plan": null
+  }
+}
