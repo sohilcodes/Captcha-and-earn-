@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: captcha-earn
+    name: captcha-earning
     env: php
     buildCommand: ""
     startCommand: "php -S 0.0.0.0:10000 -t public"
