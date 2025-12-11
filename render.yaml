@@ -3,4 +3,4 @@ services:
     name: captcha-earning
     env: php
     buildCommand: ""
-    startCommand: "php -S 0.0.0.0:10000 -t public"
+    startCommand: "php scripts/init_db.php && php -S 0.0.0.0:$PORT -t public"
